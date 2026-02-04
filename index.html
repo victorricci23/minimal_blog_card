@@ -3,19 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="This is an example of mini blog card" />
+    <meta name="description" content="Minimal blog card example - Embracing Minimalism" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
 
-    <title>devChallenges.io | Minimal Blog Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+   
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" />
+
+    <title>Minimal Blog Card | Minimal Blog Card</title>
 
     <style>
       * {
@@ -30,26 +27,27 @@
 
       .content {
           margin: 164px auto 164px;
-          width: 368px;                 /* ou o tamanho que você realmente quer */
+          width: 368px;
           background: white;
           box-shadow: 8px 8px 20px #E5EAF0;
           border-radius: 8px;
          
           overflow: hidden; 
           display: flex;
-          flex-direction: column;       /* empilha imagem + texto verticalmente */
-          justify-content: center;      /* centraliza horizontalmente */
+          flex-direction: column;
+          justify-content: center;
           align-items: center;  
       }
 
       .content img {
         width: 336px;
+        height: 140px;
         display: block;
-        margin: 1rem auto;             /* espaço em cima e embaixo + centraliza */
+        margin: 1rem auto;
         border-radius: 8px;
       }
 
-      .content h2 {
+      .content h1 {
         margin-left: 16px;
         font-size: 1.125rem;
         font-family:  "Sora", sans-serif;
@@ -87,7 +85,6 @@
         width: 100%;
         height: 1px;
         background: #E5EAF0;
-        /* margin: 2rem auto; */
       }
 
       .name {
@@ -130,7 +127,7 @@
       @media (min-width: 1024px) {
         .content {
           max-width: 520px;       
-          margin: 328px auto 328px;
+          margin: 250px auto 250px;
         }
 
         .content img {
@@ -145,24 +142,31 @@
     </style>
   </head>
   <body>
-    <div class="content">
-      <img src="resources/Cactus.jpg" alt="Cactus" />
+    <main>
+      <article class="content">
+        <img 
+          src="resources/Cactus.jpg" 
+          alt="Small green cactus in a white pot on a neutral background" 
+          loading="eager" 
+          decoding="async" 
+        />
 
-      <span class="tag-soft">Design</span> 
-      
-      <h2>Embracing Minimalism</h2>
+        <span class="tag-soft">Design</span> 
+        <div>
+          <h1>Embracing Minimalism</h1>
 
-      <p class="phrase">
-        From minimalist sculptures to minimalist<br>
-        paint, this blog will inspire you to<br>
-        appreciate the beauty that lies in simplicity.
-      </p>
+          <p class="phrase">
+            From minimalist sculptures to minimalist<br>
+            paint, this blog will inspire you to<br>
+            appreciate the beauty that lies in simplicity.
+          </p>
 
-      <p class="separador"></p>
+          <p class="separador"></p>
 
-      <p class="name">Annie Spratt</p>
-    </div>
-
+          <p class="name">Annie Spratt</p>
+        </div>
+      </article>
+    </main>
     <div class="author-info">
       Coded by <a href="#">Victor C. Ricci</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" target="_blank"

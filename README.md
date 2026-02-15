@@ -73,5 +73,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- GitHub [@victorricci](https://github.com/victorricci)  
-- (Add your LinkedIn, Twitter/X, personal website, etc. here if you want)
+- GitHub [@victorricci](https://github.com/victorricci)

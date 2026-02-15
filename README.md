@@ -33,7 +33,7 @@
 
 ## Overview
 
-![screenshot](https://media.discordapp.net/attachments/1464634656463786118/1468405665109246086/Screenshot_2026-02-03_at_21-38-32_devChallenges.io_Minimal_Blog_Card.png?ex=6983e6d8&is=69829558&hm=f419fa793c3e36cfb092ee270f8f88d01a5c1f63acb10cbb6fd8e048b2a1b46f&=&format=webp&quality=lossless&width=841&height=562)
+![screenshot](thumbnail.jpg)
 
 ### What I learned
 
